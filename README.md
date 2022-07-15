@@ -2,7 +2,7 @@
 A collection of Handy and Fun tools.
 
 ## Start?
-Run `streamlit run main.py --server.port=<your fav port>`.
+Run `streamlit run <welcome page>.py`.
 
 ## Stop?
 Simply `Ctrl+C`.
