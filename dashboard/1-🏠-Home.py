@@ -1,4 +1,3 @@
-from mimetypes import init
 import streamlit as st
 
 from dashboard.util import add_custom_css
@@ -21,9 +20,6 @@ def start_app():
     welcome_page = WelcomePage()
     welcome_page.write()
     add_custom_css()
-
-    # st.sidebar.title("Blapp")
-    # st.sidebar.subheader("Welcome to Blapp!")
 
 
 if __name__ == "__main__":
