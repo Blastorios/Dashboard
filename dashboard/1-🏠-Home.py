@@ -11,9 +11,7 @@ class WelcomePage:
         st.title("Blapp")
         st.write("A collection of Handy and Fun tools. Use the pages at your own risk!")
 
-        st.warning(
-            "This is a beta version of Blapp. Please report any bugs to the github repository."
-        )
+        st.warning("This website is currently in the alpha stages.")
 
 
 def start_app():
@@ -24,7 +22,7 @@ def start_app():
 
 if __name__ == "__main__":
     st.set_page_config(
-        page_title="Blapp",
+        page_title="BLAPP",
         page_icon="https://raw.githubusercontent.com/Blastorios/Blastorios/master/images/B-logo.svg",  # put into dotenv?
         layout="wide",
         initial_sidebar_state="auto",
